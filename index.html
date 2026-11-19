@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière | Perfume Collection</title>
+  <link rel="stylesheet" href="products.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">LUMIÈRE</a>
+
+  <nav>
+    <a href="index.html" data-fa="خانه" data-en="Home">خانه</a>
+    <a href="products.html" data-fa="محصولات" data-en="Products">محصولات</a>
+    <a href="#footer" data-fa="تماس با ما" data-en="Contact">تماس با ما</a>
+  </nav>
+
+  <div class="header-actions">
+    <button id="languageBtn">EN</button>
+    <span class="cart">♡ <span id="cartCount">0</span></span>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="small-title">THE ART OF FRAGRANCE</p>
+    <h1 data-fa="دنیای رایحه‌های خاص" data-en="Discover Your Signature Scent">
+      دنیای رایحه‌های خاص
+    </h1>
+    <p data-fa="عطر مناسب شخصیت خود را پیدا کنید."
+       data-en="Find the fragrance that reflects your personality.">
+      عطر مناسب شخصیت خود را پیدا کنید.
+    </p>
+  </div>
+</section>
+
+<main class="container">
+
+  <div class="section-heading">
+    <p>OUR COLLECTION</p>
+    <h2 data-fa="مجموعه عطرهای ما" data-en="Our Perfume Collection">
+      مجموعه عطرهای ما
+    </h2>
+  </div>
+
+  <div class="filters">
+    <input type="text" id="search"
+      placeholder="جستجوی عطر..."
+      aria-label="جستجوی عطر">
+
+    <button class="filter active" data-category="all"
+      data-fa="همه" data-en="All">همه</button>
+    <button class="filter" data-category="women"
+      data-fa="زنانه" data-en="Women">زنانه</button>
+    <button class="filter" data-category="men"
+      data-fa="مردانه" data-en="Men">مردانه</button>
+    <button class="filter" data-category="unisex"
+      data-fa="یونیسکس" data-en="Unisex">یونیسکس</button>
+  </div>
+
+  <div class="products-grid" id="productsGrid">
+
+    <article class="product-card" data-category="women"
+      data-name="Miss Dior">
+      <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=700"
+        alt="Miss Dior perfume">
+      <div class="product-info">
+        <span>DIOR</span>
+        <h3>Miss Dior Blooming Bouquet</h3>
+        <p>3,850,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men"
+      data-name="Bleu de Chanel">
+      <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=700"
+        alt="Bleu de Chanel perfume">
+      <div class="product-info">
+        <span>CHANEL</span>
+        <h3>Bleu de Chanel</h3>
+        <p>5,200,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="women"
+      data-name="Coco Mademoiselle">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=700"
+        alt="Coco Mademoiselle perfume">
+      <div class="product-info">
+        <span>CHANEL</span>
+        <h3>Coco Mademoiselle</h3>
+        <p>4,600,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex"
+      data-name="Black Orchid">
+      <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=700"
+        alt="Black Orchid perfume">
+      <div class="product-info">
+        <span>TOM FORD</span>
+        <h3>Black Orchid</h3>
+        <p>6,100,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="women"
+      data-name="Rose Elegance">
+      <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=700"
+        alt="Rose perfume">
+      <div class="product-info">
+        <span>LUMIÈRE</span>
+        <h3>Rose Elegance</h3>
+        <p>2,900,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men"
+      data-name="Oud Intense">
+      <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=700"
+        alt="Oud perfume">
+      <div class="product-info">
+        <span>LUMIÈRE</span>
+        <h3>Oud Intense</h3>
+        <p>3,700,000 تومان</p>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید"
+          data-en="Add to Cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+  </div>
+
+  <p id="emptyMessage" hidden>محصولی پیدا نشد.</p>
+
+</main>
+
+<footer id="footer">
+  <h2>LUMIÈRE</h2>
+  <p data-fa="زیبایی در هر قطره از رایحه"
+     data-en="Beauty in Every Drop of Fragrance">
+    زیبایی در هر قطره از رایحه
+  </p>
+  <p>© 2026 LUMIÈRE. All Rights Reserved.</p>
+</footer>
+
+<script src="products.js"></script>
+</body>
+</html>
